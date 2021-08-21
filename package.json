@@ -1,0 +1,33 @@
+{
+  "name": "advdigital-macedoebezerra-ws",
+  "version": "1.0.0",
+  "description": "Back-end do projeto Macedo & Bezerra com NodeJs, Express, MongoDB etc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aalissonaq/macedo_e_bezerra-ws.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "Express",
+    "MongoDB",
+    "JacaScript"
+  ],
+  "author": "Alisson Almeida | Cariri Inovação",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aalissonaq/macedo_e_bezerra-ws/issues"
+  },
+  "homepage": "https://github.com/aalissonaq/macedo_e_bezerra-ws#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "mongoose": "^5.13.7",
+    "morgan": "^1.10.0"
+  }
+}
