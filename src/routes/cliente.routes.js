@@ -41,7 +41,7 @@ router.post('/', async (req, res) => {
       user: `userRoot`
     }).save();
     cliente.save();
-    res.json({ error: false, cliente, log });
+    res.json({ error: false, cliente });
   } catch (error) {
     res.json({ error: true, message: error.message })
   }
