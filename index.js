@@ -10,7 +10,7 @@ require('./src/services/database');
 
 app.use(morgan('dev'));
 app.use(express.json());
-//app.use(cors());
+app.use(cors());
 
 //app.set('port', 8000);
 
