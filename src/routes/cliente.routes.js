@@ -13,7 +13,7 @@ router.get('/', async (req, res) => {
       action: `O Usuário acessou a lista de todos dos dados dos clientes em ${moment().format('DD/MM/YYYY')} as ${moment().format('HH:mm:ss')}`,
       user: `userRoot`
     }).save();
-    res.json({ error: false, clientes, log });
+    res.json({ error: false, clientes });
   } catch (error) {
     res.json({ error: true, message: error.message })
   }
@@ -27,7 +27,7 @@ router.get('/:id', async (req, res) => {
       action: `O Usuário acessou o registro do ${cliente.nome} em ${moment().format('DD/MM/YYYY')} as ${moment().format('HH:mm:ss')}`,
       user: `userRoot`
     }).save();
-    res.json({ error: false, cliente, log });
+    res.json({ error: false, cliente });
   } catch (error) {
     res.json({ error: true, message: error.message })
   }
